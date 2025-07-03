@@ -182,11 +182,11 @@ export default function Header() {
                   href="tel:+13235550192"
                   className="flex items-center space-x-3 px-4 py-3 text-slate-600 hover:text-slate-900 hover:bg-slate-50 rounded-xl transition-all duration-300 group"
                 >
-                  <div className="p-2 bg-slate-100 rounded-lg group-hover:bg-slate-200 transition-colors duration-300">
-                    <Phone className="h-4 w-4 text-slate-600" />
+                  <div className="p-2 bg-emerald-600 rounded-lg transition-colors duration-300">
+                    <Phone className="h-4 w-4 text-white" />
                   </div>
                   <div>
-                    <div className="font-medium">(323) 555-0192</div>
+                    <div className="font-medium text-slate-800">(323) 555-0192</div>
                     <div className="text-xs text-slate-500">Tap to call</div>
                   </div>
                 </a>
@@ -195,11 +195,11 @@ export default function Header() {
                   href="mailto:serena@blakepsychology.com"
                   className="flex items-center space-x-3 px-4 py-3 text-slate-600 hover:text-slate-900 hover:bg-slate-50 rounded-xl transition-all duration-300 group"
                 >
-                  <div className="p-2 bg-slate-100 rounded-lg group-hover:bg-slate-200 transition-colors duration-300">
-                    <Mail className="h-4 w-4 text-slate-600" />
+                  <div className="p-2 bg-rose-400 rounded-lg  transition-colors duration-300">
+                    <Mail className="h-4 w-4 text-white" />
                   </div>
                   <div>
-                    <div className="font-medium text-sm">serena@blakepsychology.com</div>
+                    <div className="font-medium text-sm text-slate-800">serena@blakepsychology.com</div>
                     <div className="text-xs text-slate-500">Send email</div>
                   </div>
                 </a>
