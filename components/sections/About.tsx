@@ -40,9 +40,13 @@ export default function About() {
             </div>
             
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in-up">
-              <span className="bg-gradient-to-r from-slate-800 via-slate-700 to-slate-800 bg-clip-text text-transparent">
-                Dr. Serena Blake
-              </span>
+            <span className="bg-gradient-to-r from-pink-400 via-rose-400 to-rose-500 bg-clip-text text-transparent font-bold">
+              Dr. Serena Blake
+            </span>
+
+
+
+
               <br />
               <span className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-emerald-600 mt-2 block">
                 PsyD, Clinical Psychologist
