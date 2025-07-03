@@ -1,10 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: [
-      'img.notionusercontent.com',
-      'images.unsplash.com',
-      'file.notion.so'
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'img.notionusercontent.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'file.notion.so',
+      },
     ],
   },
 };
