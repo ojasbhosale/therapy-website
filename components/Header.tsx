@@ -59,7 +59,7 @@ export default function Header() {
                   </div>
                 </div>
                 <div className="sm:hidden">
-                  <div className="text-lg font-bold text-white drop-shadow-lg">
+                  <div className="text-lg font-bold text-emerald-600 drop-shadow-lg">
                     Dr. Blake
                   </div>
                 </div>
@@ -158,7 +158,7 @@ export default function Header() {
 
         {/* Enhanced Mobile Navigation */}
         <div className={`md:hidden overflow-hidden transition-all duration-500 ease-out ${
-          isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+          isMenuOpen ? 'max-h-full opacity-100' : 'max-h-0 opacity-0'
         }`}>
           <div className="bg-white/98 backdrop-blur-lg border-t border-slate-200/50 shadow-lg">
             <div className="px-4 py-6 space-y-2">
