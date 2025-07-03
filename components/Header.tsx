@@ -101,14 +101,14 @@ export default function Header() {
             >
               <div className={`p-1 rounded-md transition-colors duration-300 ${
                 isScrolled 
-                  ? 'bg-slate-100 group-hover:bg-slate-200' 
-                  : 'bg-white/20 group-hover:bg-white/30'
+                  ? 'bg-emerald-600' 
+                  : 'bg-emerald-600'
               }`}>
                 <Phone className={`h-3 w-3 ${
-                  isScrolled ? 'text-slate-600' : 'text-white'
+                  isScrolled ? 'text-white' : 'text-white'
                 }`} />
               </div>
-              <span className="font-medium">(323) 555-0192</span>
+              <span className="font-medium text-black">(323) 555-0192</span>
             </a>
             <Button
               onClick={() => scrollToSection('#contact')}
