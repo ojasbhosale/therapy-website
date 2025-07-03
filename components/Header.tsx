@@ -36,7 +36,7 @@ export default function Header() {
     <header className={`fixed w-full z-50 transition-all duration-500 ${
       isScrolled 
         ? 'bg-white/95 backdrop-blur-lg shadow-lg border-b border-slate-200/50' 
-        : 'bg-black/20 backdrop-blur-sm'
+        : 'transparent'
     }`}>
       <div className="container-custom">
         <div className="flex items-center justify-between h-16 sm:h-18 px-4 sm:px-6 lg:px-8">
@@ -51,10 +51,10 @@ export default function Header() {
                   <Sparkles className="w-4 h-4 text-white" />
                 </div>
                 <div className="hidden sm:block">
-                  <div className="text-lg font-bold text-white drop-shadow-lg">
+                  <div className="text-lg font-bold text-emerald-600 drop-shadow-lg">
                     Dr. Serena Blake
                   </div>
-                  <div className="text-xs text-slate-200 font-medium -mt-1 drop-shadow">
+                  <div className="text-xs text-emerald-600 font-medium -mt-1 drop-shadow">
                     Clinical Psychologist
                   </div>
                 </div>
